@@ -1,8 +1,6 @@
 const qrcode = require('qrcode-terminal');
 const { Client, LocalAuth, MessageMedia } = require('whatsapp-web.js');
-const client = new Client({
-    authStrategy: new LocalAuth()
-});
+const client = new Client({ puppeteer: {headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox']}, session: sessionCfg });
 
 const prefix = "!"
 client.on('qr', qr => {
