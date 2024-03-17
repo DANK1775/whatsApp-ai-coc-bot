@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp_bot_coc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "@iamtraction/google-translate": "^2.0.1",
+    "clash-of-clans-node": "^1.1.4",
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0",
+    "replicate": "^0.27.1",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
